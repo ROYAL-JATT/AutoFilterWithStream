@@ -25,7 +25,7 @@ async def start(client, message):
                     InlineKeyboardButton('「◥꧁ད Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ཌ꧂◤」', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
                     InlineKeyboardButton('꧁ Sᴜᴘᴘᴏʀᴛ ꧂', url="https://t.me/Movies_villae"), 
-                    InlineKeyboardButton('🍂⃤ Rᴜʟᴇs 🍂⃤', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2")
+                    InlineKeyboardButton('🍂⃤ Rᴜʟᴇs 🍂⃤', url="https://telegra.ph/H%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%C9%A2%E1%B4%87%E1%B4%9B-%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87s--s%E1%B4%87%CA%80%C9%AA%E1%B4%87s-%D2%93%CA%80%E1%B4%8F%E1%B4%8D-B%E1%B4%8F%E1%B4%9B-12-11")
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
