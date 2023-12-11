@@ -63,7 +63,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2"),
+                                                                           InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/H%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%C9%A2%E1%B4%87%E1%B4%9B-%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87s--s%E1%B4%87%CA%80%C9%AA%E1%B4%87s-%D2%93%CA%80%E1%B4%8F%E1%B4%8D-B%E1%B4%8F%E1%B4%9B-12-11"),
                                                                            InlineKeyboardButton('Hᴏᴡ Tᴏ Usᴇ Mᴇ', url="https://t.me/movies_villa_backup")
                                                                          ]]
                                                  ),
