@@ -104,7 +104,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/UnknownBotz/AutoFilterWithStream">
+<a href="https://heroku.com/deploy?template=https://github.com/ROYAL-JATT/AutoFilterWithStream">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -160,7 +160,7 @@ Use these settings when adding a monitor:</b>
 <p>
 <pre>
 git clone https://github.com/Joelkb/DQ-The-File-Donor
-# Install Packages
+# Install Packagesp
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
 python3 bot.py
