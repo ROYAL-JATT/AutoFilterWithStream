@@ -1,3 +1,4 @@
+#Dont change anything without informing us
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
@@ -8,5 +9,5 @@ else
 fi
 cd /AutoFilterWithStream
 pip3 install -U -r requirements.txt
-echo "Starting AutoFilterWithStream...."
-python3 bot.py
+echo "Starting Bot...."
+python3 bot.py 
