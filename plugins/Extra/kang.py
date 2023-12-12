@@ -28,7 +28,7 @@ def getConfig(name: str):
     return os.environ[name]
 
 try:
-    BOT_TOKEN = getConfig('BOT_TOKEN')
+   BOT_TOKEN = getConfig('BOT_TOKEN')
 except KeyError as e:
     LOGGER.error("BOT_TOKEN env variables missing! Exiting now")
     exit(1)
@@ -36,6 +36,7 @@ except KeyError as e:
 updater = telegram.ext.Updater(token=BOT_TOKEN)
 bot = updater.bot
 dispatcher = updater.dispatcher
+
 
 START_TEXT = """
 Hey! I'm {}, and I'm a bot which allows you to create a sticker pack from other stickers, images and documents!
