@@ -33,7 +33,7 @@ except KeyError as e:
     LOGGER.error("BOT_TOKEN env variables missing! Exiting now")
     exit(1)
 
-updater = telegram.ext.Updater(token=BOT_TOKEN)
+updater = Updater(token = token, use_context=True)
 bot = updater.bot
 dispatcher = updater.dispatcher
 
