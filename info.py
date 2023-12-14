@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Pind:Pind@cluster0.ncnmfuk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -54,9 +54,9 @@ STRM_BOT = environ.get('STRM_BOT', "https://t.me/c/1845700490/3")
 
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "mdisklink.link")
+VERIFY2_URL = environ.get('VERIFY2_URL', "Mdiskshortner.link")
 VERIFY2_API = environ.get('VERIFY2_API', "4fa150d44b4bf6579c24b33bbbb786dbfb4fc673")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Mdiskshortner.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4fa150d44b4bf6579c24b33bbbb786dbfb4fc673')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), True)
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
