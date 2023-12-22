@@ -1265,6 +1265,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        
     elif query.data == "kushal":
         buttons = [[
             InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
@@ -1399,7 +1400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.PLAN3_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )  
+        ) 
+        
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"), 
