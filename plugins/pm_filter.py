@@ -1187,8 +1187,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                 ],[                                        
                     InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
-                ]]
-        
+                ],[
+                    InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
+                  ]]
+       
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1263,6 +1265,141 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "kushal":
+        buttons = [[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
+        ],[
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29"), 
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/123d3d5d9933784495f52.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.KUSHAL_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
+    elif query.data == "check":
+        buttons = [[
+            InlineKeyboardButton('PLAN 1', callback_data='plan1'), 
+            InlineKeyboardButton('PLAN 2', callback_data='plan2'), 
+            InlineKeyboardButton('PLAN 3', callback_data='plan3') 
+        ],[
+            InlineKeyboardButton('<————«« Back »»————>', callback_data='kushal'), 
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("")
+        ) 
+        await query.message.edit_text(
+            text=script.CHECK_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "plan1":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.PLAN1_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
+    elif query.data == "plan2":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+        ],[  
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')                   
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.PLAN2_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
+    elif query.data == "plan3":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.PLAN3_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )  
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Bᴏᴛ Oᴡɴᴇʀ', callback_data="owner_info"), 
