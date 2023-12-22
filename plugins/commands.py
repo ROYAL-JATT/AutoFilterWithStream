@@ -55,8 +55,25 @@ async def start(client, message):
 
                 ],[                                        
                     InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
-                ]]
-        
+                ],[
+                    InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
+                  ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        m=await message.reply_text("ᴡᴀɪᴛ...")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_text("ʙᴏᴛ ɪs sᴛᴀʀᴛᴇᴅ...")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_text("👀")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_text("⚡")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
+        await asyncio.sleep(1)
+        await m.delete()
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -102,7 +119,9 @@ async def start(client, message):
 
                 ],[                                        
                     InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
-                ]]
+                ],[
+                    InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
+                  ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
