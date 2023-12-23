@@ -1270,7 +1270,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
         ],[
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/47"), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1322,8 +1322,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/47") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
@@ -1340,7 +1340,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+            InputMediaPhoto("https://telegra.ph/file/dacb3bab654e8600967e9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1349,8 +1349,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/47") 
         ],[  
             InlineKeyboardButton('CHECK PLANS', callback_data='check')                   
         ]]
@@ -1367,7 +1367,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+            InputMediaPhoto("https://telegra.ph/file/dacb3bab654e8600967e9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1376,8 +1376,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/kim_jong_un_india"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/29") 
+            InlineKeyboardButton('Send ScreenShot', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/MOVIES_VILLA_UPDATE/47") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
@@ -1394,7 +1394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://telegra.ph/file/d1573ba2eabb59439e4b6.jpg")
+            InputMediaPhoto("https://telegra.ph/file/dacb3bab654e8600967e9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
