@@ -1313,7 +1313,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("")
+            InputMediaPhoto("https://telegra.ph/file/dacb3bab654e8600967e9.jpg")
         ) 
         await query.message.edit_text(
             text=script.CHECK_TXT,
