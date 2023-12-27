@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('「◥꧁ད Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ཌ꧂◤」', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('꧁ Sᴜᴘᴘᴏʀᴛ ꧂', url="https://t.me/Movies_villae"), 
+                    InlineKeyboardButton('꧁ Sᴜᴘᴘᴏʀᴛ ꧂', url="https://t.me/+pQkqBOStU1Y3ZjE1"), 
                     InlineKeyboardButton('🍂⃤ Rᴜʟᴇs 🍂⃤', url="https://telegra.ph/H%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%C9%A2%E1%B4%87%E1%B4%9B-%E1%B4%8D%E1%B4%8F%E1%B4%A0%C9%AA%E1%B4%87s--s%E1%B4%87%CA%80%C9%AA%E1%B4%87s-%D2%93%CA%80%E1%B4%8F%E1%B4%8D-B%E1%B4%8F%E1%B4%9B-12-11")
                 ]]
         
@@ -40,7 +40,7 @@ async def start(client, message):
         
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
-            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
+            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Preet_mehra"))       
             await db.add_chat(message.chat.id, message.chat.title)
         return 
     if not await db.is_user_exist(message.from_user.id):
@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Aʙᴏᴜᴛ ⌬', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
+                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/Hacker6865")                            
                 ],[
                     InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
                   ]]
@@ -118,7 +118,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Aʙᴏᴜᴛ ⌬', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
+                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/Hacker6865")                            
                 ],[
                     InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
                   ]]
