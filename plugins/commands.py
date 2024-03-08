@@ -54,7 +54,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Aʙᴏᴜᴛ ⌬', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/Hacker6865")                            
+                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
                 ],[
                     InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
                   ]]
@@ -118,7 +118,7 @@ async def start(client, message):
                     InlineKeyboardButton('⌬ Aʙᴏᴜᴛ ⌬', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/Hacker6865")                            
+                    InlineKeyboardButton('⏣ Aɴʏ Qᴜᴇʀʏ ⏣', url="https://t.me/ROYAL_GAGAN_DEEP_SINGH_MEHRA")                            
                 ],[
                     InlineKeyboardButton('💳 Gᴇᴛ Aᴅᴢ Fʀᴇᴇ Fɪʟᴇ 💳', callback_data='kushal') 
                   ]]
